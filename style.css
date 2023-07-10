@@ -1,0 +1,156 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 220px 50px 150px;
+    
+    align-items: center;
+    
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+
+.mary {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.r{
+    color: tomato;
+}
+ul li{
+    color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+button{
+    padding: 10px 20px;
+    border: 0;
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+}
+
+.headerSection{
+    display: flex;
+    max-width: 1240px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+.hi{
+    color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.sabber{
+    color: var(--dark-01, #181818);
+font-family: Open Sans;
+font-size: 85px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.headerSection{
+    background-image: url("./images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position:right bottom;
+}
+.himgonehimgtwo{
+    background-image: url("./images/developer.png");
+    background-repeat: no-repeat;
+    background-position:left bottom;
+    background-color: #FFF8F3;
+}
+.about{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 155px;
+}
+
+.me{
+    
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+.whatido{
+    text-align: center;
+    margin: 100px 300px;
+
+}
+.what{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.boxContainer{
+    display: flex;
+    max-width: 1100px;
+    margin:0 auto ;
+    gap: 20px;
+    padding: 20px;
+}
+.box{
+    box-shadow: 0px 0px 20px rgb(174, 168, 168);
+    padding: 20px;
+    border-radius: 10px;
+}
+.box h3,.box img{
+    
+    margin: 20px 0;
+}
+.summary{
+    max-width: 1100px;
+    margin: 50px auto;
+}
+.summary h1{
+    margin: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+.summarymain{
+    display: flex;
+    gap: 15px;
+    margin: 40px 0;
+}
+.summary{
+    background-image: url("./images/annie-spratt-OTy0mkqc2Yk-unsplash.jpg"),
+    linear-gradient(90deg, #464545,#6666687d);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
